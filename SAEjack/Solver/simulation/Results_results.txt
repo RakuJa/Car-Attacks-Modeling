@@ -1,0 +1,2153 @@
+_______________________________Simulator Results______________________________
+Date:                        Tue May 28 00:27:13 CEST 2024
+
+____________________________Simulator Configuration___________________________
+Simulation Type:             Terminating
+Project Name:                SAEjack
+Study Name:                  study
+Random Number Generator:     Mersenne Twister
+Random Number Seed:          31756
+Maximum Batches:             10000
+Minimum Batches:             1000
+Data Reporting Frequency:    1000
+Display Update Frequency:    1000
+BuildType:                   Optimize
+Execution Architecture:      64-bit
+Runname:                     Results
+Output File:                 Results_output.txt
+Results File:                Results_results
+Jackknife Variance:          On
+Processors Per Experiment:   1
+Maximize Processor Usage:    false
+Processors Selected for Simulation: 
+        student-VirtualBox   amd64
+
+_________________________________Experiment 1_________________________________
+Start Time:                  Tue May 28 00:27:04 CEST 2024
+Finish Time:                 Tue May 28 00:27:05 CEST 2024
+Elapsed Running Time:        0.494
+Total CPU Time:              0.158874
+Batches Completed:           1000
+Experiment Name:             Experiment 1
+Global Variable Settings:    
+        short                CANpacketforgingprof     0                      
+        short                Networkhackingprof       0                      
+        short                Socialengineeringprof    0                      
+        short                Systemhackingprof        0                      
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 2_________________________________
+Start Time:                  Tue May 28 00:27:05 CEST 2024
+Finish Time:                 Tue May 28 00:27:05 CEST 2024
+Elapsed Running Time:        0.57
+Total CPU Time:              0.17921600000000001
+Batches Completed:           1000
+Experiment Name:             Experiment 2
+Global Variable Settings:    
+        short                CANpacketforgingprof     100                    
+        short                Networkhackingprof       0                      
+        short                Socialengineeringprof    0                      
+        short                Systemhackingprof        0                      
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 3_________________________________
+Start Time:                  Tue May 28 00:27:05 CEST 2024
+Finish Time:                 Tue May 28 00:27:06 CEST 2024
+Elapsed Running Time:        0.56
+Total CPU Time:              0.164989
+Batches Completed:           1000
+Experiment Name:             Experiment 3
+Global Variable Settings:    
+        short                CANpacketforgingprof     0                      
+        short                Networkhackingprof       100                    
+        short                Socialengineeringprof    0                      
+        short                Systemhackingprof        0                      
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 4_________________________________
+Start Time:                  Tue May 28 00:27:06 CEST 2024
+Finish Time:                 Tue May 28 00:27:06 CEST 2024
+Elapsed Running Time:        0.461
+Total CPU Time:              0.159805
+Batches Completed:           1000
+Experiment Name:             Experiment 4
+Global Variable Settings:    
+        short                CANpacketforgingprof     100                    
+        short                Networkhackingprof       100                    
+        short                Socialengineeringprof    0                      
+        short                Systemhackingprof        0                      
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 5_________________________________
+Start Time:                  Tue May 28 00:27:06 CEST 2024
+Finish Time:                 Tue May 28 00:27:07 CEST 2024
+Elapsed Running Time:        0.448
+Total CPU Time:              0.15419899999999997
+Batches Completed:           1000
+Experiment Name:             Experiment 5
+Global Variable Settings:    
+        short                CANpacketforgingprof     0                      
+        short                Networkhackingprof       0                      
+        short                Socialengineeringprof    100                    
+        short                Systemhackingprof        0                      
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 6_________________________________
+Start Time:                  Tue May 28 00:27:07 CEST 2024
+Finish Time:                 Tue May 28 00:27:07 CEST 2024
+Elapsed Running Time:        0.466
+Total CPU Time:              0.16081800000000002
+Batches Completed:           1000
+Experiment Name:             Experiment 6
+Global Variable Settings:    
+        short                CANpacketforgingprof     100                    
+        short                Networkhackingprof       0                      
+        short                Socialengineeringprof    100                    
+        short                Systemhackingprof        0                      
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 7_________________________________
+Start Time:                  Tue May 28 00:27:07 CEST 2024
+Finish Time:                 Tue May 28 00:27:08 CEST 2024
+Elapsed Running Time:        0.594
+Total CPU Time:              0.15525699999999998
+Batches Completed:           1000
+Experiment Name:             Experiment 7
+Global Variable Settings:    
+        short                CANpacketforgingprof     0                      
+        short                Networkhackingprof       100                    
+        short                Socialengineeringprof    100                    
+        short                Systemhackingprof        0                      
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 8_________________________________
+Start Time:                  Tue May 28 00:27:08 CEST 2024
+Finish Time:                 Tue May 28 00:27:09 CEST 2024
+Elapsed Running Time:        0.438
+Total CPU Time:              0.14859
+Batches Completed:           1000
+Experiment Name:             Experiment 8
+Global Variable Settings:    
+        short                CANpacketforgingprof     100                    
+        short                Networkhackingprof       100                    
+        short                Socialengineeringprof    100                    
+        short                Systemhackingprof        0                      
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 9_________________________________
+Start Time:                  Tue May 28 00:27:09 CEST 2024
+Finish Time:                 Tue May 28 00:27:09 CEST 2024
+Elapsed Running Time:        0.547
+Total CPU Time:              0.162858
+Batches Completed:           1000
+Experiment Name:             Experiment 9
+Global Variable Settings:    
+        short                CANpacketforgingprof     0                      
+        short                Networkhackingprof       0                      
+        short                Socialengineeringprof    0                      
+        short                Systemhackingprof        100                    
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 10________________________________
+Start Time:                  Tue May 28 00:27:09 CEST 2024
+Finish Time:                 Tue May 28 00:27:10 CEST 2024
+Elapsed Running Time:        0.515
+Total CPU Time:              0.159563
+Batches Completed:           1000
+Experiment Name:             Experiment 10
+Global Variable Settings:    
+        short                CANpacketforgingprof     100                    
+        short                Networkhackingprof       0                      
+        short                Socialengineeringprof    0                      
+        short                Systemhackingprof        100                    
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 11________________________________
+Start Time:                  Tue May 28 00:27:10 CEST 2024
+Finish Time:                 Tue May 28 00:27:10 CEST 2024
+Elapsed Running Time:        0.418
+Total CPU Time:              0.173073
+Batches Completed:           1000
+Experiment Name:             Experiment 11
+Global Variable Settings:    
+        short                CANpacketforgingprof     0                      
+        short                Networkhackingprof       100                    
+        short                Socialengineeringprof    0                      
+        short                Systemhackingprof        100                    
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 12________________________________
+Start Time:                  Tue May 28 00:27:10 CEST 2024
+Finish Time:                 Tue May 28 00:27:11 CEST 2024
+Elapsed Running Time:        0.439
+Total CPU Time:              0.17326699999999998
+Batches Completed:           1000
+Experiment Name:             Experiment 12
+Global Variable Settings:    
+        short                CANpacketforgingprof     100                    
+        short                Networkhackingprof       100                    
+        short                Socialengineeringprof    0                      
+        short                Systemhackingprof        100                    
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 13________________________________
+Start Time:                  Tue May 28 00:27:11 CEST 2024
+Finish Time:                 Tue May 28 00:27:11 CEST 2024
+Elapsed Running Time:        0.44
+Total CPU Time:              0.16215600000000002
+Batches Completed:           1000
+Experiment Name:             Experiment 13
+Global Variable Settings:    
+        short                CANpacketforgingprof     0                      
+        short                Networkhackingprof       0                      
+        short                Socialengineeringprof    100                    
+        short                Systemhackingprof        100                    
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 14________________________________
+Start Time:                  Tue May 28 00:27:11 CEST 2024
+Finish Time:                 Tue May 28 00:27:12 CEST 2024
+Elapsed Running Time:        0.441
+Total CPU Time:              0.16967300000000002
+Batches Completed:           1000
+Experiment Name:             Experiment 14
+Global Variable Settings:    
+        short                CANpacketforgingprof     100                    
+        short                Networkhackingprof       0                      
+        short                Socialengineeringprof    100                    
+        short                Systemhackingprof        100                    
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 15________________________________
+Start Time:                  Tue May 28 00:27:12 CEST 2024
+Finish Time:                 Tue May 28 00:27:12 CEST 2024
+Elapsed Running Time:        0.508
+Total CPU Time:              0.16895
+Batches Completed:           1000
+Experiment Name:             Experiment 15
+Global Variable Settings:    
+        short                CANpacketforgingprof     0                      
+        short                Networkhackingprof       100                    
+        short                Socialengineeringprof    100                    
+        short                Systemhackingprof        100                    
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+_________________________________Experiment 16________________________________
+Start Time:                  Tue May 28 00:27:12 CEST 2024
+Finish Time:                 Tue May 28 00:27:13 CEST 2024
+Elapsed Running Time:        0.461
+Total CPU Time:              0.150372
+Batches Completed:           1000
+Experiment Name:             Experiment 16
+Global Variable Settings:    
+        short                CANpacketforgingprof     100                    
+        short                Networkhackingprof       100                    
+        short                Socialengineeringprof    100                    
+        short                Systemhackingprof        100                    
+        short                wantsHijackCar           1000                   
+
+
+_________________________________Mean Results_________________________________
+Name                  Time               Mean                     Confidence Interval
+NetworkAccess         0.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         3.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         6.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         9.0               0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         12.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         15.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         18.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         21.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         24.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         27.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         30.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         33.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         36.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         39.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         42.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         45.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         48.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         51.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         54.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         57.0              0.0000000000E00   +/-   0.0000000000E00 
+NetworkAccess         60.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             3.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             6.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             9.0               0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             12.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             15.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             18.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             21.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             24.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             27.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             30.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             33.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             36.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             39.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             42.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             45.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             48.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             51.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             54.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             57.0              0.0000000000E00   +/-   0.0000000000E00 
+OBDAccess             60.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   0.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   3.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   6.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   9.0               0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   12.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   15.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   18.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   21.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   24.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   27.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   30.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   33.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   36.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   39.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   42.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   45.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   48.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   51.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   54.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   57.0              0.0000000000E00   +/-   0.0000000000E00 
+TelematicUnitAccess   60.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        0.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        3.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        6.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        9.0               0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        12.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        15.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        18.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        21.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        24.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        27.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        30.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        33.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        36.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        39.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        42.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        45.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        48.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        51.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        54.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        57.0              0.0000000000E00   +/-   0.0000000000E00 
+ValidBtCarLink        60.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       0.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       3.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       6.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       9.0               0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       12.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       15.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       18.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       21.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       24.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       27.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       30.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       33.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       36.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       39.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       42.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       45.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       48.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       51.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       54.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       57.0              0.0000000000E00   +/-   0.0000000000E00 
+MachineHijacked       60.0              0.0000000000E00   +/-   0.0000000000E00 
+CANAccess             0.0               0.0000000000E00   +/-   0.0000000000E00 
+
+
+_______________________________Variance Results_______________________________
+
+
+_______________________________Interval Results_______________________________
+
+
+_____________________________Distribution Results_____________________________
+
+<END_MOBIUS_RESULTS>

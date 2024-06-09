@@ -1,0 +1,1977 @@
+Simulator Results
+Date:, Tue May 28 00:27:13 CEST 2024
+
+Simulator Configuration
+Simulation Type:,Terminating
+Project Name:,SAEjack
+Study Name:,study
+Random Number Generator:,Mersenne Twister
+Random Number Seed:,31756
+Maximum Batches:,10000
+Minimum Batches:,1000
+Data Reporting Frequency:,1000
+Display Update Frequency:,1000
+BuildType:,Optimize
+Execution Architecture:,64-bit
+Runname:,Results
+Output File:,Results_output.txt
+Results File:,Results_results
+Jackknife Variance:,On
+Processors Per Experiment:,1
+Maximize Processor Usage:,false
+Processors Selected for Simulation:
+student-VirtualBox,amd64
+
+Experiment 1
+Experiment 1,Start Time:,Tue May 28 00:27:04 CEST 2024
+Experiment 1,Finish Time:,Tue May 28 00:27:05 CEST 2024
+Experiment 1,Elapsed Running Time:,0.494
+Experiment 1,Total CPU Time:,0.158874
+Experiment 1,Batches Completed:,1000
+Experiment 1,Experiment Name:,Experiment 1
+Experiment 1,Global Variable Settings:
+Experiment 1,short,CANpacketforgingprof,0
+Experiment 1,short,Networkhackingprof,0
+Experiment 1,short,Socialengineeringprof,0
+Experiment 1,short,Systemhackingprof,0
+Experiment 1,short,wantsHijackCar,1000
+Experiment 1, Results
+Experiment 1,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 1,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 1,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 2
+Experiment 2,Start Time:,Tue May 28 00:27:05 CEST 2024
+Experiment 2,Finish Time:,Tue May 28 00:27:05 CEST 2024
+Experiment 2,Elapsed Running Time:,0.57
+Experiment 2,Total CPU Time:,0.17921600000000001
+Experiment 2,Batches Completed:,1000
+Experiment 2,Experiment Name:,Experiment 2
+Experiment 2,Global Variable Settings:
+Experiment 2,short,CANpacketforgingprof,100
+Experiment 2,short,Networkhackingprof,0
+Experiment 2,short,Socialengineeringprof,0
+Experiment 2,short,Systemhackingprof,0
+Experiment 2,short,wantsHijackCar,1000
+Experiment 2, Results
+Experiment 2,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 2,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 2,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 3
+Experiment 3,Start Time:,Tue May 28 00:27:05 CEST 2024
+Experiment 3,Finish Time:,Tue May 28 00:27:06 CEST 2024
+Experiment 3,Elapsed Running Time:,0.56
+Experiment 3,Total CPU Time:,0.164989
+Experiment 3,Batches Completed:,1000
+Experiment 3,Experiment Name:,Experiment 3
+Experiment 3,Global Variable Settings:
+Experiment 3,short,CANpacketforgingprof,0
+Experiment 3,short,Networkhackingprof,100
+Experiment 3,short,Socialengineeringprof,0
+Experiment 3,short,Systemhackingprof,0
+Experiment 3,short,wantsHijackCar,1000
+Experiment 3, Results
+Experiment 3,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 3,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 3,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 4
+Experiment 4,Start Time:,Tue May 28 00:27:06 CEST 2024
+Experiment 4,Finish Time:,Tue May 28 00:27:06 CEST 2024
+Experiment 4,Elapsed Running Time:,0.461
+Experiment 4,Total CPU Time:,0.159805
+Experiment 4,Batches Completed:,1000
+Experiment 4,Experiment Name:,Experiment 4
+Experiment 4,Global Variable Settings:
+Experiment 4,short,CANpacketforgingprof,100
+Experiment 4,short,Networkhackingprof,100
+Experiment 4,short,Socialengineeringprof,0
+Experiment 4,short,Systemhackingprof,0
+Experiment 4,short,wantsHijackCar,1000
+Experiment 4, Results
+Experiment 4,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 4,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 4,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 5
+Experiment 5,Start Time:,Tue May 28 00:27:06 CEST 2024
+Experiment 5,Finish Time:,Tue May 28 00:27:07 CEST 2024
+Experiment 5,Elapsed Running Time:,0.448
+Experiment 5,Total CPU Time:,0.15419899999999997
+Experiment 5,Batches Completed:,1000
+Experiment 5,Experiment Name:,Experiment 5
+Experiment 5,Global Variable Settings:
+Experiment 5,short,CANpacketforgingprof,0
+Experiment 5,short,Networkhackingprof,0
+Experiment 5,short,Socialengineeringprof,100
+Experiment 5,short,Systemhackingprof,0
+Experiment 5,short,wantsHijackCar,1000
+Experiment 5, Results
+Experiment 5,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 5,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 5,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 6
+Experiment 6,Start Time:,Tue May 28 00:27:07 CEST 2024
+Experiment 6,Finish Time:,Tue May 28 00:27:07 CEST 2024
+Experiment 6,Elapsed Running Time:,0.466
+Experiment 6,Total CPU Time:,0.16081800000000002
+Experiment 6,Batches Completed:,1000
+Experiment 6,Experiment Name:,Experiment 6
+Experiment 6,Global Variable Settings:
+Experiment 6,short,CANpacketforgingprof,100
+Experiment 6,short,Networkhackingprof,0
+Experiment 6,short,Socialengineeringprof,100
+Experiment 6,short,Systemhackingprof,0
+Experiment 6,short,wantsHijackCar,1000
+Experiment 6, Results
+Experiment 6,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 6,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 6,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 7
+Experiment 7,Start Time:,Tue May 28 00:27:07 CEST 2024
+Experiment 7,Finish Time:,Tue May 28 00:27:08 CEST 2024
+Experiment 7,Elapsed Running Time:,0.594
+Experiment 7,Total CPU Time:,0.15525699999999998
+Experiment 7,Batches Completed:,1000
+Experiment 7,Experiment Name:,Experiment 7
+Experiment 7,Global Variable Settings:
+Experiment 7,short,CANpacketforgingprof,0
+Experiment 7,short,Networkhackingprof,100
+Experiment 7,short,Socialengineeringprof,100
+Experiment 7,short,Systemhackingprof,0
+Experiment 7,short,wantsHijackCar,1000
+Experiment 7, Results
+Experiment 7,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 7,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 7,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 8
+Experiment 8,Start Time:,Tue May 28 00:27:08 CEST 2024
+Experiment 8,Finish Time:,Tue May 28 00:27:09 CEST 2024
+Experiment 8,Elapsed Running Time:,0.438
+Experiment 8,Total CPU Time:,0.14859
+Experiment 8,Batches Completed:,1000
+Experiment 8,Experiment Name:,Experiment 8
+Experiment 8,Global Variable Settings:
+Experiment 8,short,CANpacketforgingprof,100
+Experiment 8,short,Networkhackingprof,100
+Experiment 8,short,Socialengineeringprof,100
+Experiment 8,short,Systemhackingprof,0
+Experiment 8,short,wantsHijackCar,1000
+Experiment 8, Results
+Experiment 8,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 8,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 8,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 9
+Experiment 9,Start Time:,Tue May 28 00:27:09 CEST 2024
+Experiment 9,Finish Time:,Tue May 28 00:27:09 CEST 2024
+Experiment 9,Elapsed Running Time:,0.547
+Experiment 9,Total CPU Time:,0.162858
+Experiment 9,Batches Completed:,1000
+Experiment 9,Experiment Name:,Experiment 9
+Experiment 9,Global Variable Settings:
+Experiment 9,short,CANpacketforgingprof,0
+Experiment 9,short,Networkhackingprof,0
+Experiment 9,short,Socialengineeringprof,0
+Experiment 9,short,Systemhackingprof,100
+Experiment 9,short,wantsHijackCar,1000
+Experiment 9, Results
+Experiment 9,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 9,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 9,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 10
+Experiment 10,Start Time:,Tue May 28 00:27:09 CEST 2024
+Experiment 10,Finish Time:,Tue May 28 00:27:10 CEST 2024
+Experiment 10,Elapsed Running Time:,0.515
+Experiment 10,Total CPU Time:,0.159563
+Experiment 10,Batches Completed:,1000
+Experiment 10,Experiment Name:,Experiment 10
+Experiment 10,Global Variable Settings:
+Experiment 10,short,CANpacketforgingprof,100
+Experiment 10,short,Networkhackingprof,0
+Experiment 10,short,Socialengineeringprof,0
+Experiment 10,short,Systemhackingprof,100
+Experiment 10,short,wantsHijackCar,1000
+Experiment 10, Results
+Experiment 10,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 10,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 10,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 11
+Experiment 11,Start Time:,Tue May 28 00:27:10 CEST 2024
+Experiment 11,Finish Time:,Tue May 28 00:27:10 CEST 2024
+Experiment 11,Elapsed Running Time:,0.418
+Experiment 11,Total CPU Time:,0.173073
+Experiment 11,Batches Completed:,1000
+Experiment 11,Experiment Name:,Experiment 11
+Experiment 11,Global Variable Settings:
+Experiment 11,short,CANpacketforgingprof,0
+Experiment 11,short,Networkhackingprof,100
+Experiment 11,short,Socialengineeringprof,0
+Experiment 11,short,Systemhackingprof,100
+Experiment 11,short,wantsHijackCar,1000
+Experiment 11, Results
+Experiment 11,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 11,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 11,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 12
+Experiment 12,Start Time:,Tue May 28 00:27:10 CEST 2024
+Experiment 12,Finish Time:,Tue May 28 00:27:11 CEST 2024
+Experiment 12,Elapsed Running Time:,0.439
+Experiment 12,Total CPU Time:,0.17326699999999998
+Experiment 12,Batches Completed:,1000
+Experiment 12,Experiment Name:,Experiment 12
+Experiment 12,Global Variable Settings:
+Experiment 12,short,CANpacketforgingprof,100
+Experiment 12,short,Networkhackingprof,100
+Experiment 12,short,Socialengineeringprof,0
+Experiment 12,short,Systemhackingprof,100
+Experiment 12,short,wantsHijackCar,1000
+Experiment 12, Results
+Experiment 12,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 12,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 12,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 13
+Experiment 13,Start Time:,Tue May 28 00:27:11 CEST 2024
+Experiment 13,Finish Time:,Tue May 28 00:27:11 CEST 2024
+Experiment 13,Elapsed Running Time:,0.44
+Experiment 13,Total CPU Time:,0.16215600000000002
+Experiment 13,Batches Completed:,1000
+Experiment 13,Experiment Name:,Experiment 13
+Experiment 13,Global Variable Settings:
+Experiment 13,short,CANpacketforgingprof,0
+Experiment 13,short,Networkhackingprof,0
+Experiment 13,short,Socialengineeringprof,100
+Experiment 13,short,Systemhackingprof,100
+Experiment 13,short,wantsHijackCar,1000
+Experiment 13, Results
+Experiment 13,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 13,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 13,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 14
+Experiment 14,Start Time:,Tue May 28 00:27:11 CEST 2024
+Experiment 14,Finish Time:,Tue May 28 00:27:12 CEST 2024
+Experiment 14,Elapsed Running Time:,0.441
+Experiment 14,Total CPU Time:,0.16967300000000002
+Experiment 14,Batches Completed:,1000
+Experiment 14,Experiment Name:,Experiment 14
+Experiment 14,Global Variable Settings:
+Experiment 14,short,CANpacketforgingprof,100
+Experiment 14,short,Networkhackingprof,0
+Experiment 14,short,Socialengineeringprof,100
+Experiment 14,short,Systemhackingprof,100
+Experiment 14,short,wantsHijackCar,1000
+Experiment 14, Results
+Experiment 14,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 14,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 14,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 15
+Experiment 15,Start Time:,Tue May 28 00:27:12 CEST 2024
+Experiment 15,Finish Time:,Tue May 28 00:27:12 CEST 2024
+Experiment 15,Elapsed Running Time:,0.508
+Experiment 15,Total CPU Time:,0.16895
+Experiment 15,Batches Completed:,1000
+Experiment 15,Experiment Name:,Experiment 15
+Experiment 15,Global Variable Settings:
+Experiment 15,short,CANpacketforgingprof,0
+Experiment 15,short,Networkhackingprof,100
+Experiment 15,short,Socialengineeringprof,100
+Experiment 15,short,Systemhackingprof,100
+Experiment 15,short,wantsHijackCar,1000
+Experiment 15, Results
+Experiment 15,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 15,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 15,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+Experiment 16
+Experiment 16,Start Time:,Tue May 28 00:27:12 CEST 2024
+Experiment 16,Finish Time:,Tue May 28 00:27:13 CEST 2024
+Experiment 16,Elapsed Running Time:,0.461
+Experiment 16,Total CPU Time:,0.150372
+Experiment 16,Batches Completed:,1000
+Experiment 16,Experiment Name:,Experiment 16
+Experiment 16,Global Variable Settings:
+Experiment 16,short,CANpacketforgingprof,100
+Experiment 16,short,Networkhackingprof,100
+Experiment 16,short,Socialengineeringprof,100
+Experiment 16,short,Systemhackingprof,100
+Experiment 16,short,wantsHijackCar,1000
+Experiment 16, Results
+Experiment 16,Result Type,Name,Start Time,End Time,Mean,,Confidence Interval,Failed To Converge
+Experiment 16,Mean,NetworkAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,NetworkAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,OBDAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,TelematicUnitAccess,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,ValidBtCarLink,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,3.0,3.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,6.0,6.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,9.0,9.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,12.0,12.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,15.0,15.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,18.0,18.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,21.0,21.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,24.0,24.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,27.0,27.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,30.0,30.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,33.0,33.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,36.0,36.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,39.0,39.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,42.0,42.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,45.0,45.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,48.0,48.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,51.0,51.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,54.0,54.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,57.0,57.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,MachineHijacked,60.0,60.0,0.0000000000E00 ,+/-,0.0000000000E00 
+Experiment 16,Mean,CANAccess,0.0,0.0,0.0000000000E00 ,+/-,0.0000000000E00 
+
+<END_MOBIUS_RESULTS>

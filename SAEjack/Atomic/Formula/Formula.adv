@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ASCII"?>
+<models:AdviseAtomicModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:models="http://www.mobius.illinois.edu/atomic/advise/" name="Formula">
+  <aeg adviseModel="/">
+    <skillElements key="Networkhacking">
+      <value name="Networkhacking" codename="Networkhacking" xpos="72" ypos="19" sourceArcs="//@aeg/@arcElements.12 //@aeg/@arcElements.13" attackExecutionGraph="//@aeg"/>
+    </skillElements>
+    <skillElements key="Socialengineering">
+      <value name="Socialengineering" codename="Socialengineering" xpos="227" ypos="160" sourceArcs="//@aeg/@arcElements.16 //@aeg/@arcElements.18" attackExecutionGraph="//@aeg"/>
+    </skillElements>
+    <skillElements key="Systemhacking">
+      <value name="Systemhacking" codename="Systemhacking" xpos="236" ypos="353" sourceArcs="//@aeg/@arcElements.14 //@aeg/@arcElements.15" attackExecutionGraph="//@aeg"/>
+    </skillElements>
+    <skillElements key="CANpacketforging">
+      <value name="CANpacketforging" codename="CANpacketforging" xpos="451" ypos="637" sourceArcs="//@aeg/@arcElements.17" attackExecutionGraph="//@aeg"/>
+    </skillElements>
+    <knowledgeElements key="MACaddressoftheCar">
+      <value name="MACaddressoftheCar" codename="MACaddressoftheCar" xpos="404" ypos="101" sourceArcs="//@aeg/@arcElements.3" targetArcs="//@aeg/@arcElements.2" attackExecutionGraph="//@aeg"/>
+    </knowledgeElements>
+    <accessElements key="Telematicunitaccess">
+      <value name="Telematicunitaccess" codename="Telematicunitaccess" xpos="405" ypos="436" sourceArcs="//@aeg/@arcElements.11" targetArcs="//@aeg/@arcElements.10" attackExecutionGraph="//@aeg"/>
+    </accessElements>
+    <accessElements key="AccesstoOBD-IIport">
+      <value name="AccesstoOBD-IIport" codename="AccesstoOBDIIport" xpos="72" ypos="435" sourceArcs="//@aeg/@arcElements.19" targetArcs="//@aeg/@arcElements.6" attackExecutionGraph="//@aeg"/>
+    </accessElements>
+    <accessElements key="Validlinkwithcarbluetooth">
+      <value name="Validlinkwithcarbluetooth" codename="Validlinkwithcarbluetooth" xpos="404" ypos="252" sourceArcs="//@aeg/@arcElements.9" targetArcs="//@aeg/@arcElements.0 //@aeg/@arcElements.1" attackExecutionGraph="//@aeg"/>
+    </accessElements>
+    <accessElements key="Networkaccess">
+      <value name="Networkaccess" codename="Networkaccess" xpos="71" ypos="249" sourceArcs="//@aeg/@arcElements.5" targetArcs="//@aeg/@arcElements.4" attackExecutionGraph="//@aeg"/>
+    </accessElements>
+    <accessElements key="AccessToCANBus">
+      <value name="AccessToCANBus" codename="AccessToCANBus" xpos="240" ypos="518" sourceArcs="//@aeg/@arcElements.22 //@aeg/@arcElements.23" targetArcs="//@aeg/@arcElements.20 //@aeg/@arcElements.21" attackExecutionGraph="//@aeg"/>
+    </accessElements>
+    <stepElements key="Do Nothing">
+      <value name="Do Nothing" codename="DoNothing" editMask="15" attackExecutionGraph="//@aeg" height="0" width="0" cost="return 0;">
+        <outcomes key="Outcome 1">
+          <value name="Outcome 1" probability="return 1;" detection="return 0;" effects=""/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 1;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Access dealership WIFI">
+      <value name="Access dealership WIFI" codename="AccessdealershipWIFI" xpos="22" ypos="158" sourceArcs="//@aeg/@arcElements.4" targetArcs="//@aeg/@arcElements.12 //@aeg/@arcElements.18" attackExecutionGraph="//@aeg" width="150" preconditions="return !Networkaccess->Mark() &amp;&amp; (Networkhacking->Mark() > 30 || Socialengineering->Mark() > 50);" cost="return 1;">
+        <outcomes key="Outcome 1">
+          <value name="Success" probability="if (Networkhacking->Mark() > 90) return 1; else 0.9;" detection="if (Networkhacking->Mark() > 60) return 0.1; else 0.5;" effects="Networkaccess->Mark() = true;"/>
+        </outcomes>
+        <outcomes key="Failure">
+          <value name="Failure" probability="if (Networkhacking->Mark() > 90) return 0; else 0.1;" detection="if (Networkhacking->Mark() > 60) return 0.1; else 0.5;" effects=""/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 10;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Shell injection on PassThru">
+      <value name="Shell injection on PassThru" codename="ShellinjectiononPassThru" xpos="21" ypos="352" sourceArcs="//@aeg/@arcElements.6" targetArcs="//@aeg/@arcElements.5 //@aeg/@arcElements.14" attackExecutionGraph="//@aeg" width="150" preconditions="return Networkaccess->Mark() &amp;&amp; !AccesstoOBDIIport->Mark() &amp;&amp; Systemhacking->Mark() > 30;" cost="return 10;">
+        <outcomes key="Outcome 1">
+          <value name="Success" probability="return 1;" detection="return 0;" effects="AccesstoOBDIIport->Mark() = true;"/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 1;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Insert Trojan in user phone">
+      <value name="Insert Trojan in user phone" codename="InsertTrojaninuserphone" xpos="177" ypos="251" sourceArcs="//@aeg/@arcElements.1" targetArcs="//@aeg/@arcElements.16" attackExecutionGraph="//@aeg" width="150" preconditions="return !Validlinkwithcarbluetooth->Mark() &amp;&amp; Socialengineering->Mark() > 30;" cost="return 1;">
+        <outcomes key="Outcome 1">
+          <value name="Success" probability="if (Socialengineering->Mark() > 80) return 0.9; else 0.3;" detection="return 0.1;" effects="Validlinkwithcarbluetooth->Mark() = true;"/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 1;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Sniff car Bluetooth MAC address">
+      <value name="Sniff car Bluetooth MAC address" codename="SniffcarBluetoothMACaddress" xpos="353" ypos="17" sourceArcs="//@aeg/@arcElements.2" targetArcs="//@aeg/@arcElements.13" attackExecutionGraph="//@aeg" width="150" preconditions="return !MACaddressoftheCar->Mark() &amp;&amp; Networkhacking->Mark() > 10;" cost="return 1;">
+        <outcomes key="Outcome 1">
+          <value name="Success" probability="return 1;" detection="return 0;" effects="MACaddressoftheCar->Mark() = true;"/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 10;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Bruteforce Bluetooth PIN">
+      <value name="Bruteforce Bluetooth PIN" codename="BruteforceBluetoothPIN" xpos="353" ypos="177" sourceArcs="//@aeg/@arcElements.0" targetArcs="//@aeg/@arcElements.3" attackExecutionGraph="//@aeg" width="150" preconditions="return !Validlinkwithcarbluetooth->Mark() &amp;&amp; MACaddressoftheCar->Mark();" cost="return 1;">
+        <outcomes key="Outcome 1">
+          <value name="Success" probability="return 0.05;" detection="return 0;" effects="Validlinkwithcarbluetooth->Mark() = true;"/>
+        </outcomes>
+        <outcomes key="Failure">
+          <value name="Failure" probability="return 0.95;" detection="return 0;" effects=""/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 1;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Execute arbitrary code on the telematics unit">
+      <value name="Execute arbitrary code on the telematics unit" codename="Executearbitrarycodeonthetelematicsunit" xpos="356" ypos="515" sourceArcs="//@aeg/@arcElements.21" targetArcs="//@aeg/@arcElements.11" attackExecutionGraph="//@aeg" width="150" preconditions="return Telematicunitaccess->Mark() &amp;&amp; !AccessToCANBus->Mark();" cost="return 5;">
+        <outcomes key="Outcome 1">
+          <value name="Success" probability="return 1;" detection="return 0;" effects="AccessToCANBus->Mark() = true;"/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 1;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="DDOS the CAN BUS">
+      <value name="DDOS the CAN BUS" codename="DDOStheCANBUS" xpos="102" ypos="636" sourceArcs="//@aeg/@arcElements.7" targetArcs="//@aeg/@arcElements.23" attackExecutionGraph="//@aeg" width="150" preconditions="return AccessToCANBus->Mark() &amp;&amp; !Machineishijacked->Mark();" cost="return 1;">
+        <outcomes key="Outcome 1">
+          <value name="Outcome 1" probability="return 1;" detection="return 0.9;" effects="Machineishijacked->Mark() = true;"/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 1;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Forge valid CAN BUS packages">
+      <value name="Forge valid CAN BUS packages" codename="ForgevalidCANBUSpackages" xpos="268" ypos="635" sourceArcs="//@aeg/@arcElements.8" targetArcs="//@aeg/@arcElements.17 //@aeg/@arcElements.22" attackExecutionGraph="//@aeg" width="150" preconditions="return AccessToCANBus->Mark() &amp;&amp; !Machineishijacked->Mark() &amp;&amp; CANpacketforging->Mark() > 50;" cost="return 3;">
+        <outcomes key="Outcome 1">
+          <value name="Success" probability="if (CANpacketforging->Mark() > 80) return 0.9; else 0.7;" detection="if (CANpacketforging->Mark() > 80) return 0; else 0.2;" effects="Machineishijacked->Mark() = true;"/>
+        </outcomes>
+        <outcomes key="Failure">
+          <value name="Failure" probability="if (CANpacketforging->Mark() > 80) return 0.1; else 0.3;" detection="if (CANpacketforging->Mark() > 80) return 0; else 0.2;" effects="Machineishijacked->Mark() = true;"/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 2;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Exploit unchecked strcpy">
+      <value name="Exploit unchecked strcpy" codename="Exploituncheckedstrcpy" xpos="355" ypos="358" sourceArcs="//@aeg/@arcElements.10" targetArcs="//@aeg/@arcElements.9 //@aeg/@arcElements.15" attackExecutionGraph="//@aeg" width="150" preconditions="return !Telematicunitaccess->Mark() &amp;&amp; Validlinkwithcarbluetooth->Mark() &amp;&amp; Systemhacking->Mark() > 50;" cost="return 10;">
+        <outcomes key="Outcome 1">
+          <value name="Success" probability="return 1;" detection="return 0;" effects="Telematicunitaccess->Mark() = true;"/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 5;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <stepElements key="Program the car ECUs">
+      <value name="Program the car ECUs" codename="ProgramthecarECUs" xpos="23" ypos="518" sourceArcs="//@aeg/@arcElements.20" targetArcs="//@aeg/@arcElements.19" attackExecutionGraph="//@aeg" width="150" preconditions="return AccesstoOBDIIport->Mark() &amp;&amp; !AccessToCANBus->Mark();" cost="return 0;">
+        <outcomes key="Outcome 1">
+          <value name="Outcome 1" probability="return 1;" detection="return 0;" effects="AccessToCANBus->Mark() = true;"/>
+        </outcomes>
+        <timing distributionType="Deterministic">
+          <parameters>return 0;</parameters>
+        </timing>
+      </value>
+    </stepElements>
+    <goalElements key="Machineishijacked">
+      <value name="Machineishijacked" codename="Machineishijacked" xpos="225" ypos="739" targetArcs="//@aeg/@arcElements.7 //@aeg/@arcElements.8" attackExecutionGraph="//@aeg" width="75"/>
+    </goalElements>
+    <arcElements sourceName="Bruteforce Bluetooth PIN" targetName="Validlinkwithcarbluetooth" sourceType="Step"/>
+    <arcElements sourceName="Insert Trojan in user phone" targetName="Validlinkwithcarbluetooth" sourceType="Step"/>
+    <arcElements sourceName="Sniff car Bluetooth MAC address" targetName="MACaddressoftheCar" sourceType="Step" targetType="Knowledge"/>
+    <arcElements sourceName="MACaddressoftheCar" targetName="Bruteforce Bluetooth PIN" sourceType="Knowledge" targetType="Step"/>
+    <arcElements sourceName="Access dealership WIFI" targetName="Networkaccess" sourceType="Step"/>
+    <arcElements sourceName="Networkaccess" targetName="Shell injection on PassThru" targetType="Step"/>
+    <arcElements sourceName="Shell injection on PassThru" targetName="AccesstoOBD-IIport" sourceType="Step"/>
+    <arcElements sourceName="DDOS the CAN BUS" targetName="Machineishijacked" sourceType="Step" targetType="Goal"/>
+    <arcElements sourceName="Forge valid CAN BUS packages" targetName="Machineishijacked" sourceType="Step" targetType="Goal"/>
+    <arcElements sourceName="Validlinkwithcarbluetooth" targetName="Exploit unchecked strcpy" targetType="Step"/>
+    <arcElements sourceName="Exploit unchecked strcpy" targetName="Telematicunitaccess" sourceType="Step"/>
+    <arcElements sourceName="Telematicunitaccess" targetName="Execute arbitrary code on the telematics unit" targetType="Step"/>
+    <arcElements sourceName="Networkhacking" targetName="Access dealership WIFI" sourceType="Skill" targetType="Step"/>
+    <arcElements sourceName="Networkhacking" targetName="Sniff car Bluetooth MAC address" sourceType="Skill" targetType="Step"/>
+    <arcElements sourceName="Systemhacking" targetName="Shell injection on PassThru" sourceType="Skill" targetType="Step"/>
+    <arcElements sourceName="Systemhacking" targetName="Exploit unchecked strcpy" sourceType="Skill" targetType="Step"/>
+    <arcElements sourceName="Socialengineering" targetName="Insert Trojan in user phone" sourceType="Skill" targetType="Step"/>
+    <arcElements sourceName="CANpacketforging" targetName="Forge valid CAN BUS packages" sourceType="Skill" targetType="Step"/>
+    <arcElements sourceName="Socialengineering" targetName="Access dealership WIFI" sourceType="Skill" targetType="Step"/>
+    <arcElements sourceName="AccesstoOBD-IIport" targetName="Program the car ECUs" targetType="Step"/>
+    <arcElements sourceName="Program the car ECUs" targetName="AccessToCANBus" sourceType="Step"/>
+    <arcElements sourceName="Execute arbitrary code on the telematics unit" targetName="AccessToCANBus" sourceType="Step"/>
+    <arcElements sourceName="AccessToCANBus" targetName="Forge valid CAN BUS packages" targetType="Step"/>
+    <arcElements sourceName="AccessToCANBus" targetName="DDOS the CAN BUS" targetType="Step"/>
+  </aeg>
+  <adversary name="Osi" codename="Osi" horizon="5" detectionSW="0.5" costSW="0.2" payoffSW="0.3">
+    <accessInit key="Telematicunitaccess" value="0"/>
+    <accessInit key="AccessToCANBus" value="0"/>
+    <accessInit key="Networkaccess" value="0"/>
+    <accessInit key="Validlinkwithcarbluetooth" value="0"/>
+    <accessInit key="AccesstoOBD-IIport" value="0"/>
+    <goalInit key="Machineishijacked" value="0"/>
+    <goalPayoff key="Machineishijacked" value="wantsHijackCar"/>
+    <knowledgeInit key="MACaddressoftheCar" value="0"/>
+    <skillInit key="Socialengineering" value="Socialengineeringprof"/>
+    <skillInit key="CANpacketforging" value="CANpacketforgingprof"/>
+    <skillInit key="Systemhacking" value="Systemhackingprof"/>
+    <skillInit key="Networkhacking" value="Networkhackingprof"/>
+  </adversary>
+</models:AdviseAtomicModel>
